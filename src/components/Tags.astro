@@ -8,17 +8,27 @@ interface Props {
 ---
 
 <div class="flex flex-wrap gap-2">
-  {
-    tags.map((tag: string, index: number) => (
-      <span
-        class={
-          index % 2 === 0
-            ? "px-2 py-1 bg-green-500 text-white rounded-full text-xs hover:opacity-90"
-            : "px-2 py-1 bg-indigo-500 text-white rounded-full text-xs hover:opacity-90"
-        }
-      >
+   <span
+    class="card__content"
+  >
+    {tags.map((tag: string, index: number) => (
+      <>
+        {index > 0 && ", "}
         <a href={"/articles/tag/" + tag}>#{captialize(tag)}</a>
-      </span>
-    ))
-  }
+      </>
+    ))}
+  </span>
 </div>
+
+<style is:global>
+    .card__content{
+    font-size: 12px;
+    border: unset;
+    border-radius: 3rem;
+    background-color: #DFF9BA;
+    color: #1C0E40;
+    padding: 0.375rem 0.5rem;
+    transition: color .1s,background-color .1s;
+    }
+</style>
+ 
