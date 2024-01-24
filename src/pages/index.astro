@@ -5,8 +5,11 @@ import { HOMEPAGE_ARTICLE_LIMIT } from "../constants";
 import ArticleCard from "../components/ArticleCard.astro";
 import About from "../components/About.astro"
 import Recent from "../components/Recent.astro"
+import Health from "../components/Health.astro"
 import type { CollectionEntry } from "astro:content";
 import { getCollection } from "astro:content";
+import Fitness from "../components/Fitness.astro";
+import Gym from "../components/Gym.astro";
 
 const allBlogArticles: CollectionEntry<"blog">[] = (
   await getCollection("blog")
@@ -43,5 +46,11 @@ const otherArticles: CollectionEntry<"blog">[] = allBlogArticles.slice(1);
         .map((article) => <ArticleCard article={article} />)
     }
   </div>
+  <div class="flex flex-col-reverse p-6 ">
+ <Health />
+ <Fitness />
+ <Gym />
+  </div>
+
   <About />
 </MainLayout>

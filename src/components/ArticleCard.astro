@@ -6,11 +6,14 @@ const { article } =Astro.props
 
 interface Props {
     article: CollectionEntry<'blog'>
+    
 }
+
+
 ---
 
 
-<div class="main-card font-sans max-w-md mx-auto mt-10">
+<div class="main-card max-w-md mx-auto mt-10">
           <div class="bg-white rounded-lg overflow-hidden ">
             <a href={'/articles/' + article.slug}>
               <img
