@@ -11,7 +11,8 @@ const allBlogArticles: CollectionEntry<"blog">[] =
   const uniqueTags: string[] = [...new Set(tags)]
 ---
 
-
+<body class="flex flex-col min-h-screen">
+  <main class="flex-1">
 <footer class="bg-footer text-lightGreen">
   <div class="container mx-auto mt-10 max-w-screen-xl px-8">
     <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
@@ -51,6 +52,8 @@ const allBlogArticles: CollectionEntry<"blog">[] =
     </div>
   </div>
 </footer>
+</main>
+</body>
 
 
 
