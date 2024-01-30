@@ -1,0 +1,56 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import SearchForm from "../components/SearchForm.astro";
+import { HOMEPAGE_ARTICLE_LIMIT } from "../constants";
+import ArticleCard from "../components/ArticleCard.astro";
+import About from "../components/About.astro"
+import Recent from "../components/Recent.astro"
+import Health from "../components/Health.astro"
+import type { CollectionEntry } from "astro:content";
+import { getCollection } from "astro:content";
+import Fitness from "../components/Fitness.astro";
+import Gym from "../components/Gym.astro";
+
+const allBlogArticles: CollectionEntry<"blog">[] = (
+  await getCollection("blog")
+).sort(
+  (a: CollectionEntry<"blog">, b: CollectionEntry<"blog">) =>
+    b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const mostRecentArticles: CollectionEntry<"blog"> = allBlogArticles[0];
+
+const otherArticles: CollectionEntry<"blog">[] = allBlogArticles.slice(1);
+---
+
+<MainLayout>
+  <!-- Top Grid -->
+  <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
+    <div>
+      <h1 class="text-3xl font-header font-semibold mt-4 mb-8 leading-tight xl:text-5xl">
+       Your Journey to a Healthier life starts today!
+      </h1>
+      <SearchForm />
+    </div>
+   <Recent article={mostRecentArticles} />
+    
+  </div>
+
+  <!-- Main Grid -->
+  <h2 class="font-sans text-4xl">New releases</h2>
+  <div class="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3">
+    <!-- Article Card -->
+    {
+      otherArticles
+        .slice(0, HOMEPAGE_ARTICLE_LIMIT)
+        .map((article) => <ArticleCard article={article} />)
+    }
+  </div>
+  <div class="flex flex-col-reverse p-6 ">
+ <Health />
+ <Fitness />
+ <Gym />
+  </div>
+
+  <About />
+</MainLayout>

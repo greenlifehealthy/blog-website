@@ -1,11 +1,8 @@
 ---
-import MainLayout from "../layouts/MainLayout.astro";
 import ArticleCard from "../components/ArticleCard.astro";
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
-import { captialize } from "../utils";
 
-const { tag } = Astro.params;
 
 const allBlogArticles: CollectionEntry<"blog">[] = (
   await getCollection("blog")
@@ -19,7 +16,6 @@ const healthTagArticles = allBlogArticles.filter((article) =>
   article.data.tags.includes("Fitness")
 );
 
-console.log(healthTagArticles);
 ---
 
 <div>
