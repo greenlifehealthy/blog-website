@@ -26,8 +26,8 @@ const { Content } = await entry.render()
         <h1 class="text-4xl font-bold mb-2">{entry.data.title}</h1>
         <h3 class="text-lg mb-2">Written by {entry.data.author} on {formDate(entry.data.pubDate)}</h3>
         <Tags tags={entry.data.tags} />
-        <Image 
-        src='https://images.pexels.com/photos/2377045/pexels-photo-2377045.jpeg'
+        <img 
+        src={entry.data.image}
         alt='weight loss challange'
         class='w-full h-auto rounded-xl my-6'
         width='800'
