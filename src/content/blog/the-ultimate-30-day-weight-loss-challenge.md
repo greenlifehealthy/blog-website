@@ -2,7 +2,7 @@
 title: '30-Day Weight Loss Challenge: Your Ultimate Guide to a Healthier You'
 pubDate: 2024-02-02
 author: 'Danielle'
-image: ['image2.png']
+image: ['https://images.pexels.com/photos/2377045/pexels-photo-2377045.jpeg']
 tags: ['weight-loss']
 slug: 30-Day-Weight-Loss-Challenge-Your-Ultimate-Guide to-a-Healthier-You
 ---
