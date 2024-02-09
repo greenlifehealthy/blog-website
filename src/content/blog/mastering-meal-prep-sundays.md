@@ -14,19 +14,23 @@ Making healthy meals can be a difficult task to find time for in the hustle and 
 
 ## A Guide to Sunday Meal Prep:
 
-Arrange Your Dish:
+### Arrange Your Dish:
 Plan your meals for the upcoming week first. Think about your tastes, nutritional objectives, and any dietary limitations you may be experiencing. Pick dishes that are easy to prepare, well-balanced, and have a good shelf life (they should keep their flavor and texture for several days).
 
-Make a Shopping List: After you've decided on your meal, draft a thorough shopping list. This is a critical step in preventing needless weekly excursions to the food shop. To maintain concentration and avoid impulsive purchases, follow your list.
+### Make a Shopping List:
+ After you've decided on your meal, draft a thorough shopping list. This is a critical step in preventing needless weekly excursions to the food shop. To maintain concentration and avoid impulsive purchases, follow your list.
 
-Collect Utensils and Containers: Invest in a range of high-quality, reusable containers that come in different sizes. Meal portioning and storage are made simple by using the appropriate containers. Furthermore, get necessary cooking tools such as pots, and pans, cutting boards, and knives.
+### Collect Utensils and Containers: 
+Invest in a range of high-quality, reusable containers that come in different sizes. Meal portioning and storage are made simple by using the appropriate containers. Furthermore, get necessary cooking tools such as pots, and pans, cutting boards, and knives.
 
-Batch Cooking: Set aside a Sunday morning to devote to cooking. Start with components like grains and proteins that require the longest time to prepare and cook. Think of making mainstays like quinoa, rice, grilled chicken, or roasted veggies in large quantities. This guarantees uniformity in texture and flavor while also saving time.
+### Batch Cooking:
+Set aside a Sunday morning to devote to cooking. Start with components like grains and proteins that require the longest time to prepare and cook. Think of making mainstays like quinoa, rice, grilled chicken, or roasted veggies in large quantities. This guarantees uniformity in texture and flavor while also saving time.
 
-Divide and conquer:
+### Divide and conquer:
 Once your ingredients are cooked, divide and conquer by portioning them into your containers. Remember to balance your meals with a range of colorful veggies, healthy fats, and a ration of protein. To make it simple to determine the freshness of each meal, label containers.
 
-Freeze or Refrigerate: If you expect to eat your cooked meals within the following several days, store them in the refrigerator. Freeze separate pieces for longer storage times. This lets you have a variety of frozen and fresh foods all week long.
+### Freeze or Refrigerate:
+If you expect to eat your cooked meals within the following several days, store them in the refrigerator. Freeze separate pieces for longer storage times. This lets you have a variety of frozen and fresh foods all week long.
 
 diversity is Key: Don't be hesitant to introduce diversity to your meals, even if consistency is crucial for successful meal prep. Try experimenting with different marinades as well as sauces, and spices to keep your palate intrigued. It will be simpler to follow your healthy eating plan and avoid mealtime boredom if you have a choice of alternatives.
 
