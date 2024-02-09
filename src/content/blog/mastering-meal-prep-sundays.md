@@ -32,7 +32,8 @@ Once your ingredients are cooked, divide and conquer by portioning them into you
 ### Freeze or Refrigerate:
 If you expect to eat your cooked meals within the following several days, store them in the refrigerator. Freeze separate pieces for longer storage times. This lets you have a variety of frozen and fresh foods all week long.
 
-diversity is Key: Don't be hesitant to introduce diversity to your meals, even if consistency is crucial for successful meal prep. Try experimenting with different marinades as well as sauces, and spices to keep your palate intrigued. It will be simpler to follow your healthy eating plan and avoid mealtime boredom if you have a choice of alternatives.
+### Diversity is Key:
+Don't be hesitant to introduce diversity to your meals, even if consistency is crucial for successful meal prep. Try experimenting with different marinades as well as sauces, and spices to keep your palate intrigued. It will be simpler to follow your healthy eating plan and avoid mealtime boredom if you have a choice of alternatives.
 
 ## Yummy and Healthful Recipes for Meal Preparation:  
 
