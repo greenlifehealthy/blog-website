@@ -2,7 +2,7 @@
 title: 'Simple and Effective Tips for Beginners to Lose Weight Loss'
 pubDate: 2024-02-06
 author: 'Aaron'
-image: ['https://files.oaiusercontent.com/file-eKU8GGuzyWKKD44YJjvVZ2SU?se=2024-02-06T13%3A10%3A20Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D7645321c-6f5a-4b6f-867a-977ad5acd743.webp&sig=wAo20KO4nLROn5BKpQnG9xsqnhBTjyC4aQtfTDzdo6E%3D']
+image: ['https://images.pexels.com/photos/6551427/pexels-photo-6551427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
 tags: ['weight-loss']
 slug: simple-and-effective-tips-for-beginners-to-lose-weight-loss
 ---
