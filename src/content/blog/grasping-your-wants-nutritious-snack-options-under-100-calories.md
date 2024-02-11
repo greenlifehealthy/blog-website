@@ -7,12 +7,11 @@ tags: ['weight-loss']
 slug: grasping-your-wants-nutritious-snack-options-under-100-calories
 ---
 
-
-
 Snacking has become a necessary daily habit in our fast-paced world. It might be difficult to locate snacks that are both tasty and healthy, though. The good news is that there are many of tasty alternatives available that have less than 100 calories. We'll look at many nutrients-rich foods in this blog article that will satisfy your appetites without sacrificing your wellbeing.
 
 ## Crunchy vegetable sticks with hummus (80 calories approximately)
 Crunchy vegetables and creamy hummus is a traditional combo to start your snack adventure. Cut carrots, cucumbers,  and multicolored bell peppers into sticks and dip them into a bowl of hummus.   This food is high in vitamins, minerals, and fiber in addition to having a delicious crunch.
+
 
 ## Air-Popped Popcorn: Approximately 30 calories per cup
 When made without using a lot of butter or oil, popcorn is a complete grain that may be enjoyed guilt-free as a snack. Invest in an air popper or use a low-oil stovetop technique. To enhance the flavor of your popcorn without sacrificing its calorie content, lightly sprinkle it with salt or your preferred herbs.
