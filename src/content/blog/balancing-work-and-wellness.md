@@ -3,7 +3,7 @@ title: 'Balancing Work and Wellness: Strategies for Busy Professionals'
 pubDate: 2024-02-011
 author: 'James'
 image: ['https://images.pexels.com/photos/6863254/pexels-photo-6863254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
-tags: ['wellness']
+tags: ['wellness','health']
 slug: balancing-work-and-wellness-strategies-for-busy-professionals
 ---
 
