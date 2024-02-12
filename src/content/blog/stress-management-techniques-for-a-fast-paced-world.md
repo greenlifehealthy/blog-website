@@ -3,7 +3,7 @@ title: 'Stress Management Techniques for a Fast-Paced World'
 pubDate: 2024-02-11
 author: 'James'
 image: ['https://images.pexels.com/photos/6382642/pexels-photo-6382642.jpeg?auto=compress&cs=tinysrgb&w=800']
-tags: ['wellness','stress-management']
+tags: ['wellness','stress-management','health']
 slug: stress-management-techniques-for-a-fast-paced-world
 ---
 

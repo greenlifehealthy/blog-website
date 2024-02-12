@@ -3,7 +3,7 @@ title: 'Transform your body in 7 days : The ultimate Intensive Workout Fitness C
 pubDate: 2024-02-03
 author: 'Danielle'
 image: ['https://images.pexels.com/photos/3768913/pexels-photo-3768913.jpeg']
-tags: ['weight-loss','Fitness']
+tags: ['weight-loss','Fitness','health']
 slug: transform-your-body-in-7-days
 ---
 

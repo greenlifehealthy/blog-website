@@ -1,9 +1,9 @@
 ---
 title: '7 Quick Keto Dinners for Rapid Weight Loss'
-pubDate: 2024-02-011
+pubDate: 2024-02-11
 author: 'Aaron'
 image: ['https://images.pexels.com/photos/364657/pexels-photo-364657.jpeg?auto=compress&cs=tinysrgb&w=600']
-tags: ['keto-diet','weight-loss']
+tags: ['keto-diet','weight-loss', 'health']
 slug: 7-quick-keto-dinners-for-rapid-weight-loss
 ---
 
