@@ -1,90 +1,118 @@
 ---
 import MainLayout from "../../layouts/MainLayout.astro";
 import Tags from "../../components/Tags.astro";
-import { Image } from 'astro:assets';
+import { Image } from "astro:assets";
 import { getEntry } from "astro:content";
 import { formDate } from "../../utils";
 
-const { slug } = Astro.params
+const { slug } = Astro.params;
 
-if(slug === undefined){
-    throw new Error('slug needed')
+if (slug === undefined) {
+  throw new Error("slug needed");
 }
 
-const entry = await getEntry('blog', slug)
+const entry = await getEntry("blog", slug);
 
-if(entry === undefined){
-    return Astro.redirect('/404')
+if (entry === undefined) {
+  return Astro.redirect("/404");
 }
 
-const { Content } = await entry.render()
+const { Content } = await entry.render();
 ---
 
 <MainLayout>
-<a href="/articles" class="inline-block bg-gray-100 p-2 mb-6 hover:bg-green-500 hover:text-white">Back To Articles</a>
-      <article class="p-2 md:p-12 sm:p-2">
-        <h1 class="text-4xl font-bold mb-2">{entry.data.title}</h1>
-        <h3 class="text-lg mb-2">Written by {entry.data.author} on {formDate(entry.data.pubDate)}</h3>
-        <Tags tags={entry.data.tags} />
-        <img 
+  <main class="mx-auto max-w-full sm:max-w-55">
+    <a
+      href="/articles"
+      class="inline-block bg-gray-100 p-2 mb-6 hover:bg-green-500 hover:text-white"
+      >Back To Articles</a
+    >
+    <article class="p-2 md:p-12 sm:p-2">
+      <h1 class="text-4xl font-bold mb-2">{entry.data.title}</h1>
+      <h3 class="text-lg mb-2">
+        Written by {entry.data.author} on {formDate(entry.data.pubDate)}
+      </h3>
+      <Tags tags={entry.data.tags} />
+      <img
         src={entry.data.image}
-        alt='weight loss challange'
-        class='w-full h-auto rounded-xl my-6'
-        width='800'
-        height='200'
-        />
-       <Content />
-      </article>
+        alt="weight loss challange"
+        class="w-full h-auto rounded-xl my-6"
+        width="800"
+        height="200"
+      />
+      <Content />
+    </article>
+  </main>
 </MainLayout>
 
-
 <style is:global>
-    
-  
-
-
-   h2{
+  h2 {
     margin: 20px 0;
     font-weight: 700;
     font-size: 1.8rem;
-   }
+  }
 
-   h4{
+  h4 {
     font-weight: 600;
-     
-   }
+  }
 
-   h5{
+  h5 {
     font-weight: 700;
-    
-   }
+  }
 
-   h3{
-
+  h3 {
     font-weight: 700;
-   }
+  }
 
-   h1,h2,h3,h4,h5{
-    font-family: 'Plus Jakarta Sans', serif !important;
-   }
-    p{
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: "Plus Jakarta Sans", serif !important;
+  }
+  p {
     font-weight: 300;
     margin: 20px 0;
     font-size: 14px;
-    font-family: 'Rubik', serif;
-   }
+    font-family: "Rubik", serif;
+  }
 
-   ul > li {
+  ul > li {
     font-size: 14px;
     list-style: disc;
-   }
+  }
 
-   .images{
-     width: 100%;     
-    height: auto;      
-    border-radius: 0.75rem; 
-    margin-top: 1.5rem;     /* Equivalent to my-6, Tailwind's default is 0.25rem for each unit, so 6 units is 1.5rem */
+  .images {
+    width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
+    margin-top: 1.5rem; /* Equivalent to my-6, Tailwind's default is 0.25rem for each unit, so 6 units is 1.5rem */
     margin-bottom: 1.5rem;
-   }
-     
+  }
+
+  .btn-link {
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    background: #ffd814;
+    border: 1px solid #fcd200;
+    font-size: 13px;
+    height: 31px;
+    line-height: 31px; /* Added for vertical alignment */
+    padding: 0 11px;
+    text-align: center;
+    width: 100%;
+    min-width: 200px;
+    font-weight: 500;
+    color: #0f1111;
+}
+
+  .btn-link:hover {
+    background: #f7ca00;
+    border-color: #f2c200;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+  }
 </style>
