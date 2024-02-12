@@ -8,7 +8,7 @@ slug: blend-your-way-to-a-healthier-you-10-delicious-smoothie-recipes-for-weight
 ---
 *This post may contain affiliate links.*
 
-<a href="https://437c0ycgyceu7vac1fzdu2o431.hop.clickbank.net" class="affilate-link">** The Smoothie Diet 21-day Rapid weight loss **</a>
+<a href="https://bit.ly/3wbDNrv" class="affilate-link">** The Smoothie Diet 21-day Rapid weight loss **</a>
 
 
 First of all,
@@ -122,7 +122,7 @@ Pour into a glass, then savor this chocolate smoothie's rich, fulfilling flavor 
 With its delicious chocolate taste and no added sugars, this smoothie will help you reach your weight reduction objectives.
 
 
-<a class="btn-link" href="https://go.smoothiediet.com/?shield=a1fe7znf0jhpf11h0dsniyr77y">Rapid Weight Loss with the 21-Day Smoothie Diet</a>
+<a class="btn-link" href="https://bit.ly/3wbDNrv">Rapid Weight Loss with the 21-Day Smoothie Diet</a>
 
 ## In summary:
 
