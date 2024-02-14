@@ -7,15 +7,16 @@ export default {
       '55': '55%',
     },
 		 colors: {
-        'normal': '#1C0E40',
-		'white': '#f5f3ea',
+        'normal': '#242424',
+		'white': '#fff',
 		'footer': '#006241',
 		'lightGreen': '#DFF9BA'
       },
 
 	  fontFamily: {
          'header': ['"Plus Jakarta Sans"', 'Arial', 'sans-serif'],
-         'sans': ['"Plus Jakarta Sans"', 'Arial', 'sans-serif'],
+         'sans': ['"Source Serif 4"', 'Arial', 'sans-serif'],
+         'style': ['"Playfair Display"', 'Arial', 'sans-serif'],
 	  },
 	},
 	plugins: [],

@@ -9,33 +9,36 @@ interface Props {
 }
 ---
 
+<h2 class="vg mt-10  font-header text-2xl tracking-tighter">Featured Posts</h2>
+<div class="max-w-md mx-auto bg-white rounded-lg overflow-hidden md:max-w-2xl">
+  <div class="md:flex">
+    <div class="w-full p-4">
+      <a href={'/articles/' + article.slug}>
+      <img class="h-48 w-full object-cover md:w-48" src={article.data.image} alt="Article Cover">
+      </a>
+    </div>
+    <div class="p-4">
+      <h1 class="text-lg font-bold">{article.data.title}</h1>
+      <p class="mt-2 text-sm text-gray-600">The ultimate guide to the essentials of strategy and management, from one of the world's top business thinkers.</p>
+      <div class="mt-4 bottom-0">
+        <p class="text-xs text-gray-500">{formDate(article.data.pubDate)}</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-<div class="relative inline-block sm:w-auto cursor-pointer rounded-2xl">
-  <a href={'/articles/' + article.slug}>
-    <img
-      src={article.data.image}
-      alt="Article Image"
-      class="w-full h-auto rounded-2xl"
-    />
 
-    <div
-      class="absolute px-6 inset-0 flex flex-col items-center justify-center bg-black opacity-80 hover:opacity-75 transition duration-300 ease-in-out text-white text-center rounded-2xl"
-    >
-      <div>
-        <h2 class="text-2xl font-semibold sm:text-3xl">
-        {article.data.title}
-        </h2>
-        <p class="text-xl mt-4">{formDate(article.data.pubDate)}</p>
-
-        <!-- Tags with rounded border -->
-        <div class="flex mt-4 justify-center">
+        <!-- <div class="flex mt-4 justify-center">
           {article.data.tags.map((tag:string) => (
   <span class="px-2 py-1 border text-white rounded-full text-xs mr-2">
     {tag}
   </span>
 ))}
-        </div>
-      </div>
-    </div>
-  </a>
-</div>
+        </div> -->
+
+
+
+<style>  .vg{
+    border: 1px solid rgb(229, 229, 229);
+  }
+</style>

@@ -2,48 +2,66 @@
 import { formDate } from "../utils";
 import type { CollectionEntry } from "astro:content";
 import Tags from "./Tags.astro";
-const { article } =Astro.props
+const { article } = Astro.props;
 
 interface Props {
-    article: CollectionEntry<'blog'>
-    
+  article: CollectionEntry<"blog">;
 }
 ---
 
-
-<div class="main-card max-w-md mx-auto mt-10">
-          <div class="bg-white rounded-lg overflow-hidden ">
+<div class="main-card text-normal mx-auto mt-10 max-w-[1080px] p-4 md:w-full">
+  <!-- <div class="bg-white rounded-lg overflow-hidden ">
             <a href={'/articles/' + article.slug}>
-              <img
-                src={article.data.image}
-                alt="Article Image"
-                class="w-80 rounded h-48 object-cover hover:opacity-75 transition duration-300 ease-in-out"
-              />
+              
             </a>
             <div class="w-full mt-4">
               <h2 class="w-80 text-normal text-left font-semibold mb-2 hover:text-green-500 hover:underline">
-                <a href={'/articles/' + article.slug}> {article.data.title} </a>
+               
               </h2>
-              <p class="text-gray-600 text-sm mb-4">{formDate(article.data.pubDate)}</p>
-              <Tags tags={article.data.tags} />
+             
             </div>
           </div>
-        </div>
+        </div> -->
 
-<style is:global>
-
+  <div class="flex flex-col md:flex-row bg-white p-4 rounded-lg">
+    <div class="md:w-3/4 mb-2">
+      <div class="text-gray-600 text-sm">{formDate(article.data.pubDate)}</div>
+      <h2 class="text-xl font-bold font-header tracking-tight my-2">
+        <a href={"/articles/" + article.slug}> {article.data.title}</a>
+      </h2>
+      <p class="text-[14px] text-gray-800 text-base hide-on-mobile">
+        Breakthrough Innovation Needs ‘West Coast Capital’ — Five years ago, I
+        proposed an article to Harvard Business Review...
+      </p>
+      <p class="text-gray-600 !font-header text-sm mb-4">
+         <Tags tags={article.data.tags} />
+      </p>
+       
+    </div>
+    <div class="md:w-1/4 flex justify-center items-center">
+      <img src={article.data.image} alt="Article Image" class="" />
+    </div>
+  </div>
   
 
+  <style is:global>
 
-  h2{
-    font-weight: 600;
-    font-size: 21px;
-    line-height: 1.75rem;
-  }
-  
-  p{
-    font-weight: 400;
-    font-size: 14px;
-  }
+    
+    h2 {
+      font-weight: 600;
+      font-size: 21px;
+      line-height: 1.75rem;
+    }
 
-</style>
+    p {
+      font-weight: 400;
+      font-size: 14px;
+    }
+
+    @media screen and (max-width: 640px) {
+    .hide-on-mobile {
+      display: none;
+    }
+  }
+  </style>
+</div>
