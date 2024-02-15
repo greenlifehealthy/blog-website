@@ -8,8 +8,7 @@ import Recent from "../components/Recent.astro";
 import Health from "../components/Health.astro";
 import type { CollectionEntry } from "astro:content";
 import { getCollection } from "astro:content";
-import Fitness from "../components/Fitness.astro";
-import Gym from "../components/Gym.astro";
+import TypeWord from "../components/TypeWord.tsx"
 
 const allBlogArticles: CollectionEntry<"blog">[] = (
   await getCollection("blog")
@@ -38,7 +37,7 @@ const otherArticles: CollectionEntry<"blog">[] = allBlogArticles.slice(1);
         <h1
           class="text-[70px] leading-[75px] tracking-tighter font-style font-medium mt-4 mb-8 xl:text-[106px]"
         >
-          Stay Healthy.
+        <TypeWord client:load />
         </h1>
         <section class="w-96 text-[24px]">
           Discover tips from articles on keto diet, weight loss, healthy diets
