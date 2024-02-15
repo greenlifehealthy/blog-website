@@ -2,7 +2,7 @@
 title: 'Smoothie Diet 101: A Beginners Guide to Losing Weight with Smoothies'
 pubDate: 2024-02-13
 author: 'Aaron C'
-
+summary: 'Beginner's guide to weight loss with the Smoothie Diet, offering nutritious recipes and effective diet tips'
 image: ['https://images.pexels.com/photos/14930536/pexels-photo-14930536.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
 tags: ['smoothie-recipes','health']
 slug: smoothie-diet-101-a-beginners-guide-to-losing-weight-with-smoothies
