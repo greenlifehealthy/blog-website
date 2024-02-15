@@ -2,6 +2,7 @@
 title: '7 Quick Keto Dinners for Rapid Weight Loss'
 pubDate: 2024-02-07
 author: 'Aaron'
+summary: 'Explore 7 delectable keto dinners tailored for rapid weight loss. Enjoy flavorful meals while achieving your goals!'
 image: ['https://images.pexels.com/photos/364657/pexels-photo-364657.jpeg?auto=compress&cs=tinysrgb&w=600']
 tags: ['keto-diet','weight-loss', 'health']
 slug: 7-quick-keto-dinners-for-rapid-weight-loss

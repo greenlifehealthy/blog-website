@@ -32,40 +32,39 @@ const otherArticles: CollectionEntry<"blog">[] = allBlogArticles.slice(1);
 
 <MainLayout>
   <!-- Top Grid -->
-  <main class="mx-auto max-w-[1080px] p-4 md:w-full">
-<div class="">
-    <div class="flex flex-col gap-6">
-      <h1
-        class="text-[70px] leading-[75px] tracking-tighter font-style font-medium mt-4 mb-8 xl:text-[106px]"
-      >
-        Stay Healthy.
-      </h1>
-      <section class="w-96 text-[24px]">
-        Discover tips from articles on keto diet,
-        weight loss, healthy diets and lots more.
-      </section>
-      <SearchForm />
+  <main class="mx-auto max-w-[1080px] md:w-full">
+    <div class="">
+      <div class="flex flex-col gap-6">
+        <h1
+          class="text-[70px] leading-[75px] tracking-tighter font-style font-medium mt-4 mb-8 xl:text-[106px]"
+        >
+          Stay Healthy.
+        </h1>
+        <section class="w-96 text-[24px]">
+          Discover tips from articles on keto diet, weight loss, healthy diets
+          and lots more.
+        </section>
+        <SearchForm />
+      </div>
+      <Recent article={mostRecentArticles} />
     </div>
-    <Recent article={mostRecentArticles} />
-  </div>
 
-  <!-- Main Grid -->
-  <h2 class="mt-10  font-header text-2xl tracking-tighter">Recent Posts</h2>
-  <div class="flex flex-col">
-    <!-- Article Card -->
-    {
-      otherArticles
-        .slice(0, HOMEPAGE_ARTICLE_LIMIT)
-        .map((article) => <ArticleCard article={article} />)
-    }
-  </div>
-  <!-- <div class="flex flex-col-reverse p-6">
+    <!-- Main Grid -->
+    <h2 class="mt-10 font-header text-2xl tracking-tighter">Recent Posts</h2>
+    <div class="flex flex-col">
+      <!-- Article Card -->
+      {
+        otherArticles
+          .slice(0, HOMEPAGE_ARTICLE_LIMIT)
+          .map((article) => <ArticleCard article={article} />)
+      }
+    </div>
+    <!-- <div class="flex flex-col-reverse p-6">
     <Health />
     <Fitness />
     <Gym />
   </div> -->
 
-  <About />
+    <About />
   </main>
-  
 </MainLayout>

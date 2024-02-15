@@ -14,13 +14,12 @@ interface Props {
   <div class="md:flex">
     <div class="w-full p-4">
       <a href={'/articles/' + article.slug}>
-      <img class="h-48 w-full object-cover md:w-48" src={article.data.image} alt="Article Cover">
+      <img class="h-48 w-full object-cover rounded md:w-48" src={article.data.image} alt="Article Cover">
       </a>
     </div>
     <div class="p-4">
-      <h1 class="text-lg font-bold">{article.data.title}</h1>
-      <p class="mt-2 text-sm text-gray-600">The ultimate guide to the essentials of strategy and management, from one of the world's top business thinkers.</p>
-      <div class="mt-4 bottom-0">
+      <h1 class="text-lg font-header font-bold">{article.data.title}</h1>
+      <p class="mt-2 text-sm text-gray-600">{article.data.summary}
         <p class="text-xs text-gray-500">{formDate(article.data.pubDate)}</p>
       </div>
     </div>

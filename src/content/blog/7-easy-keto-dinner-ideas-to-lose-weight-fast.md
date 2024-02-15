@@ -2,6 +2,7 @@
 title: '7 Easy Keto Dinner Ideas to Lose Weight Fast'
 pubDate: 2024-02-14
 author: 'Amara'
+summary: 'Discover 7 quick - tasty keto meals to support weight loss without sacrificing flavor. Simplify your keto journey.'
 image: ['https://images.pexels.com/photos/13620781/pexels-photo-13620781.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
 tags: ['keto-diet','weight-loss', 'health']
 slug: 7-easy-keto-dinner-ideas-to-lose-weight-fast

@@ -2,6 +2,7 @@
 title: 'Simple and Effective Tips for Beginners to Lose Weight Loss'
 pubDate: 2024-02-06
 author: 'Aaron'
+summary: 'Embark on your weight loss journey with confidence using these simple and effective tips designed especially for beginners.'
 image: ['https://images.pexels.com/photos/6551427/pexels-photo-6551427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
 tags: ['weight-loss','health']
 slug: simple-and-effective-tips-for-beginners-to-lose-weight-loss

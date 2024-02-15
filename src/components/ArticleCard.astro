@@ -9,7 +9,7 @@ interface Props {
 }
 ---
 
-<div class="main-card text-normal mx-auto mt-10 max-w-[1080px] p-4 md:w-full">
+<div class="main-card text-normal mx-auto  mt-10 max-w-[1080px]  md:w-full">
   <!-- <div class="bg-white rounded-lg overflow-hidden ">
             <a href={'/articles/' + article.slug}>
               
@@ -30,8 +30,7 @@ interface Props {
         <a href={"/articles/" + article.slug}> {article.data.title}</a>
       </h2>
       <p class="text-[14px] text-gray-800 text-base hide-on-mobile">
-        Breakthrough Innovation Needs ‘West Coast Capital’ — Five years ago, I
-        proposed an article to Harvard Business Review...
+        {article.data.summary}
       </p>
       <p class="text-gray-600 !font-header text-sm mb-4">
          <Tags tags={article.data.tags} />
@@ -39,7 +38,7 @@ interface Props {
        
     </div>
     <div class="md:w-1/4 flex justify-center items-center">
-      <img src={article.data.image} alt="Article Image" class="" />
+      <img src={article.data.image} alt="Article Image" class="rounded" />
     </div>
   </div>
   

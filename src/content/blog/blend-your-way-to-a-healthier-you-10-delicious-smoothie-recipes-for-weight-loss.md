@@ -2,6 +2,7 @@
 title: 'Blend Your Way to a Healthier You: 10 Delicious Smoothie Recipes for Weight Loss'
 pubDate: 2024-02-12
 author: 'Amara'
+summary: 'Embark on a flavorful journey with 10 enticing smoothie recipes tailored for weight loss and enhanced wellness.'
 image: ['https://images.pexels.com/photos/4753639/pexels-photo-4753639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
 tags: ['smoothie-recipe','weight-loss']
 slug: blend-your-way-to-a-healthier-you-10-delicious-smoothie-recipes-for-weight-loss
