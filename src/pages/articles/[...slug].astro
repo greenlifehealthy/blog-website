@@ -24,7 +24,7 @@ const { Content } = await entry.render();
   <main class="mx-auto max-w-full sm:max-w-55">
     <a
       href="/articles"
-      class="inline-block bg-gray-100 p-2 mb-6 hover:bg-green-500 hover:text-white"
+      class="back inline-block bg-gray-100 p-2 mb-6 hover:bg-footer hover:text-white"
       >Back To Articles</a
     >
     <article class="p-2 md:p-12 sm:p-2">
@@ -52,6 +52,9 @@ const { Content } = await entry.render();
     font-size: 1.8rem;
   }
 
+  .back{
+    font-family: "Plus Jakarta Sans", serif !important;
+  }
   h4 {
     font-weight: 700;
   }
@@ -61,7 +64,9 @@ const { Content } = await entry.render();
   }
 
   .author{
-    font-weight: 500;
+    font-weight: 400;
+    color: gray;
+    font-size: 20px;
     font-family: "Source Serif 4", serif !important;
   } 
   h3 {
