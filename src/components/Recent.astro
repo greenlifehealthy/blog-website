@@ -9,7 +9,7 @@ interface Props {
 }
 ---
 
-<h2 class="vg mt-10  font-header text-2xl tracking-tighter">Featured Posts</h2>
+<h2 class="mt-10  font-header text-2xl tracking-tighter">Featured Posts</h2>
 <div class="max-w-md mx-auto bg-white rounded-lg overflow-hidden md:max-w-2xl">
   <div class="md:flex">
     <div class="w-full p-4">
@@ -20,12 +20,12 @@ interface Props {
     <div class="p-4">
       <h1 class="text-lg font-header font-bold">{article.data.title}</h1>
       <p class="mt-2 text-sm text-gray-600">{article.data.summary}
-        <p class="text-xs text-gray-500">{formDate(article.data.pubDate)}</p>
-      </div>
-    </div>
-  </div>
-</div>
-
+        <p class="text-xs mb-2 text-gray-500">{formDate(article.data.pubDate)}</p>
+        {article.data.tags.map((tag:string) => (
+  <span class="px-2 py-1 border text-normal rounded-full text-xs  mr-2">
+    {tag}
+  </span>
+))}
 
         <!-- <div class="flex mt-4 justify-center">
           {article.data.tags.map((tag:string) => (
@@ -35,9 +35,3 @@ interface Props {
 ))}
         </div> -->
 
-
-
-<style>  .vg{
-    border: 1px solid rgb(229, 229, 229);
-  }
-</style>
