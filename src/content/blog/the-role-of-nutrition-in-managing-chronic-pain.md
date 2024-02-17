@@ -4,7 +4,7 @@ pubDate: 2024-02-16
 author: 'James'
 summary: 'Nutrition significantly impacts chronic pain management through anti-inflammatory diets and specific nutrients like omega-3s and antioxidants.'
 image: ['https://images.pexels.com/photos/3771115/pexels-photo-3771115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
-tags: ['wellness',health']
+tags: ['wellness','health']
 slug: the-role-of-nutrition-in-managing-chronic-pain
 ---
 
