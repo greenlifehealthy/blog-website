@@ -1,0 +1,16 @@
+---
+// component imports
+import Seo from "../components/Seo.astro";
+
+const { title, description, image, frontmatter, robots } = Astro.props;
+---
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="generator" content={Astro.generator} />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+
+  <Seo {title} {description} url={Astro.url} {image} {frontmatter} {robots} />
+</head>
