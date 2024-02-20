@@ -35,7 +35,7 @@ Who says you can't enjoy Italian on keto? This Eggplant Parmesan is a delightful
 
 
 
-<a href="https://d1b499qp2ddpgp3pl5wnfz4r58.hop.clickbank.net" class="wiggle" style="color: blue; font-weight: 500; font-size: 19px; display: flex; justify-content: center;">GET YOUR CUSTOM KETO DIET PLAN</a>
+<a href="https://bit.ly/49y1Qzn" class="wiggle" style="color: blue; font-weight: 500; font-size: 19px; display: flex; justify-content: center;">GET YOUR CUSTOM KETO DIET PLAN</a>
 
 
 Before we wrap up, let's talk about why these meals are great for rapid weight loss. The ketogenic diet is all about low carbs and high fats, which encourages your body to burn fat for energy, leading to weight loss. These recipes are designed to keep you in ketosis while ensuring you're excited about what's on your plate.

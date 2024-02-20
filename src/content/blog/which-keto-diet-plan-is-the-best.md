@@ -14,7 +14,7 @@ Embarking on a ketogenic diet journey can be both exciting and overwhelming. Wit
 ## Understanding the Basics of Keto
 Before delving into why our custom plan excels, let’s brush up on the basics. The ketogenic diet is a high-fat, moderate-protein, and low-carbohydrate eating plan. It’s designed to shift your body into a state of ketosis, where it burns fat for fuel instead of carbohydrates <a href="https://www.nutritiontoday.com/ketosis" style="color:blue;">O'Neill, 2021</a>.
 
-<a href="https://d1b499qp2ddpgp3pl5wnfz4r58.hop.clickbank.net" class="wiggle" style=" text-decoration:underline; font-weight: 700; font-size: 21px; display: flex; justify-content: center; color:blue;">>>GET YOUR CUSTOM KETO DIET PLAN</a>
+<a href="https://bit.ly/49y1Qzn" class="wiggle" style=" text-decoration:underline; font-weight: 700; font-size: 21px; display: flex; justify-content: center; color:blue;">>>GET YOUR CUSTOM KETO DIET PLAN</a>
 
 ### The One-Size-Fits-All Dilemma
 Many generic keto plans follow a standard blueprint, which might not align with everyone’s individual needs. For instance, athletes might require more carbs or protein than what a typical keto plan offers. In contrast, someone with a sedentary lifestyle might need fewer calories.
@@ -36,4 +36,4 @@ Choosing the right keto diet plan can mean the difference between struggling and
 <img src="https://yourcustomplan.com/read_resources/img/diet-img-2.png" alt="Transformation images" style="max-width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto; border-radius: 8px">
 
 ## Take the First Step
-Ready to start your personalized keto journey? Visit our website and discover how our custom keto diet plan can be the key to unlocking your health and wellness goals. Embrace a plan that’s made for you, and begin your transformation today. <a href="https://d1b499qp2ddpgp3pl5wnfz4r58.hop.clickbank.net" class="wiggle" style=" color:blue; text-decoration:underline; font-weight: 700; font-size: 21px; display: flex; justify-content: center;">>>GET YOUR CUSTOM KETO DIET PLAN</a>
+Ready to start your personalized keto journey? Visit our website and discover how our custom keto diet plan can be the key to unlocking your health and wellness goals. Embrace a plan that’s made for you, and begin your transformation today. <a href="https://bit.ly/49y1Qzn" class="wiggle" style=" color:blue; text-decoration:underline; font-weight: 700; font-size: 21px; display: flex; justify-content: center;">>>GET YOUR CUSTOM KETO DIET PLAN</a>
