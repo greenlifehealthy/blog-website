@@ -2,6 +2,7 @@
 title: 'Keto & Metabolism: Five Ways a Low-Carbohydrate Diet Can Help You Shed Weight Faster'
 pubDate: 2024-02-13
 author: 'Danielle'
+summary: 'Investigate the synergy between the ketogenic diet and metabolism, unveiling five pathways through which a low-carbohydrate approach expedites weight loss.'
 image: ['https://images.pexels.com/photos/2226987/pexels-photo-2226987.jpeg?auto=compress&cs=tinysrgb&w=600']
 tags: ['keto-diet','weight-loss', 'health']
 slug: keto-&-metabolism-five-ways-a-low-carbohydrate-diet-can-help-you-shed-weight-faster

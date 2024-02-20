@@ -2,6 +2,7 @@
 title: 'Blend Your Way to a Healthier You: 10 Delicious Smoothie Recipes for Weight Loss'
 pubDate: 2024-02-12
 author: 'Amara'
+summary: 'Embark on a flavorful journey with 10 enticing smoothie recipes tailored for weight loss and enhanced wellness.'
 image: ['https://images.pexels.com/photos/4753639/pexels-photo-4753639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
 tags: ['smoothie-recipe','weight-loss']
 slug: blend-your-way-to-a-healthier-you-10-delicious-smoothie-recipes-for-weight-loss
@@ -49,7 +50,7 @@ To give it a colder texture, add ice cubes.
 Pour into a glass and enjoy the tart and sweet flavor of this superfood smoothie.
 Berries are a great complement to your weight reduction journey since they're tasty, low in calories, and high in fiber.
 
-<img src="https://images.pexels.com/photos/3794784/pexels-photo-3794784.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Protein Powerhouse Smoothie" style="max-width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto; border-radius: 8px">
+    <img src="https://images.pexels.com/photos/3794784/pexels-photo-3794784.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Protein Powerhouse Smoothie" style="max-width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto; border-radius: 8px">
 
 ### Ingredients for the Protein Powerhouse Smoothie:
 

@@ -2,6 +2,7 @@
 title: 'Grasping Your Wants: Nutritious Snack Options Under 100 Calories'
 pubDate: 2024-02-07
 author: 'Danielle'
+summary: 'Indulge in guilt-free snacking with these nutrient-rich options under 100 calories, satisfying cravings without compromising health.'
 image: ['https://images.pexels.com/photos/3650438/pexels-photo-3650438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
 tags: ['weight-loss', 'health']
 slug: grasping-your-wants-nutritious-snack-options-under-100-calories

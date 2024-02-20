@@ -2,8 +2,9 @@
 title: 'Balancing Work and Wellness: Strategies for Busy Professionals'
 pubDate: 2024-02-011
 author: 'James'
+summary: 'Uncover effective strategies for busy professionals to attain work-life balance and prioritize wellness for overall success'
 image: ['https://images.pexels.com/photos/6863254/pexels-photo-6863254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
-tags: ['wellness','health']
+tags: ['wellness']
 slug: balancing-work-and-wellness-strategies-for-busy-professionals
 ---
 

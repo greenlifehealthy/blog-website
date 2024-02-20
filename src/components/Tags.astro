@@ -14,13 +14,17 @@ interface Props {
     {tags.map((tag: string, index: number) => (
       <>
         {index > 0 && ", "}
-        <a href={"/articles/tag/" + tag}>#{captialize(tag)}</a>
+        <a class="tags" href={"/articles/tag/" + tag}>#{captialize(tag)}</a>
       </>
     ))}
   </span>
 </div>
 
 <style is:global>
+
+  .tags{
+      font-family:'Plus Jakarta Sans', 'Arial', 'sans-serif';
+    }
     .card__content{
     font-size: 12px;
     border: unset;

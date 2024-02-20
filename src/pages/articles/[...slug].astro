@@ -24,12 +24,12 @@ const { Content } = await entry.render();
   <main class="mx-auto max-w-full sm:max-w-55">
     <a
       href="/articles"
-      class="inline-block bg-gray-100 p-2 mb-6 hover:bg-green-500 hover:text-white"
+      class="back inline-block bg-gray-100 p-2 mb-6 hover:bg-footer hover:text-white"
       >Back To Articles</a
     >
     <article class="p-2 md:p-12 sm:p-2">
-      <h1 class="text-4xl font-bold mb-2">{entry.data.title}</h1>
-      <h3 class="author  mb-2">
+      <h1 class="text-4xl font-extrabold mb-2">{entry.data.title}</h1>
+      <h3 class="author tracking-tight mb-2">
         Written by {entry.data.author} on {formDate(entry.data.pubDate)}
       </h3>
       <Tags tags={entry.data.tags} />
@@ -45,27 +45,39 @@ const { Content } = await entry.render();
   </main>
 </MainLayout>
 
-<style is:global>
+<style is:inline>
   h2 {
     margin: 20px 0;
     font-weight: 700;
     font-size: 1.8rem;
   }
 
-  h4 {
-    font-weight: 600;
+  .back{
+    font-family: "Plus Jakarta Sans", serif !important;
   }
-
-  h5 {
+  h4 {
     font-weight: 700;
   }
 
+  h5 {
+    font-weight: 800;
+  }
+
   .author{
-    font-weight: 500;
-    font-family: "Source Serif 4", serif !important;
+    font-weight: 400;
+    color: #6B6B6B;
+    font-size: 18px;
+    font-family: "Plus Jakarta Sans", serif !important;
   } 
   h3 {
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .aff-link{
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 600;
   }
 
   h1,
@@ -87,6 +99,8 @@ const { Content } = await entry.render();
   ul > li {
     font-size: 14px;
     list-style: disc;
+    font-family: "Source Serif 4", serif;
+    font-size: 20px;
   }
 
   .images {
@@ -121,6 +135,8 @@ const { Content } = await entry.render();
     border-color: #f2c200;
     box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
   }
+
+  
 
   .affilate-link{
     color: rgb(94, 94, 253);

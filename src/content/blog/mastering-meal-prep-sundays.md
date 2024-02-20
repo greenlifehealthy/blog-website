@@ -2,6 +2,7 @@
 title: 'Mastering Meal Prep Sundays: Seven Days of Nutritious Meals'
 pubDate: 2024-02-09
 author: 'Danielle'
+summary: 'Unlock the potential of Meal Prep Sundays with a comprehensive guide to nutritious meals for the week ahead.'
 image: ['https://images.pexels.com/photos/566566/pexels-photo-566566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1']
 tags: ['meal-preps']
 slug: mastering-meal-prep-sundays
