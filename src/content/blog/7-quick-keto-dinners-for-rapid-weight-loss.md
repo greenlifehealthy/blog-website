@@ -8,7 +8,7 @@ tags: ['keto-diet','weight-loss', 'health']
 slug: 7-quick-keto-dinners-for-rapid-weight-loss
 ---
 
-*This post may contain affiliate links.*
+    *This post may contain affiliate links.*
 
 Welcome to the world of ketogenic eating, where every meal is an opportunity to nourish your body and accelerate your weight loss journey! If you're on the hunt for delicious, quick, and easy keto dinners that align with your goals, you've come to the right place. Today, I'm thrilled to share with you seven amazing keto-friendly dinner recipes that are not only mouth-watering but also perfect for those busy weeknights. Let’s dive in!
 
